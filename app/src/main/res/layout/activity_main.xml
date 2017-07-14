@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.dongyangyeongwon.myapplication.MainActivity">
-    <TextView
-        android:background="#39df1c"
-        android:text="Hero World 안녕"
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic"
         android:layout_width="wrap_content"
-        android:layout_height="75dp" />
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
